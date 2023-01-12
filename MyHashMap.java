@@ -2,7 +2,8 @@ import java.util.Iterator;
 
 /**
  * Class for a simple hash map.
- * @author Brian S. Borowski / Stephen James Connelly scj2235
+ * @author Stephen James Connelly scj2235 - size, isEmpty, get, put, rehash, and remove.
+ * @author Brian S. Borowski
  * @version 1.0 November 19, 2022
  */
 public class MyHashMap<K extends Comparable<K>, V> implements MyMap<K, V> {
